@@ -5,7 +5,7 @@ About
 
 Thanks `Sift Science`_ that give me a chance to play around with `1000 Most Common Words`_ dataset. I really have a lot of fun. 
 
-After reviewed the `1000 Most Common Words`_ list, there are three questions just pop up in my mind, so I want to crunch it a little bit more:
+After reviewed the `1000 Most Common Words`_ list, there were three questions just came to my mind, so I decided to crunch it a little bit more:
 
 1. What is the 10 most frequent letters in this list ?
 
