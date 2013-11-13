@@ -5,13 +5,13 @@ About
 
 Thanks `Sift Science`_ that give me a chance to play around with `1000 Most Common Words`_ dataset. I really have a lot of fun. 
 
-After reviewed the `1000 Most Common Words`_ list, there were three questions came to my mind, so I decided to crunch it a little bit more:
+After reviewing the `1000 Most Common Words`_ list, there were three questions came to my mind, so I decided to crunch it a little bit more:
 
-1. What is the 10 most frequent letters in this list ?
+1. What are the 10 most frequent letters in this list ?
 
-2. How to solve the first question if the list size is very hug, like 1TB ?
+2. How to solve the first question if the list size is very huge, like 1TB ?
 
-3. Is there any frequent letters pattern occurs in these frequent words? 
+3. Is there any frequent letters pattern occurs in those frequent words? 
 
 Please go through each section for detail.
 
@@ -21,7 +21,7 @@ Have Fun !!
 
 .. _`Sift Science`: https://siftscience.com/
 
-1. What is the 10 most frequent letters in this list ?
+1. What are the 10 most frequent letters in this list ?
 ========================================================
 
 Actually, this is a question that was posted on the company website. Since there are only 24 letters in English, I believe the easiest and fastest way to solve this problem is hash (dict in python). Please let me know if you have any better idea. 
@@ -46,7 +46,7 @@ Output::
 
 
 
-2. How to solve the first question if the list size is very hug, like 1TB ?
+2. How to solve the first question if the list size is very huge, like 1TB ?
 ==============================================================
 
 Big data is a hot topic in these few years, so always keep in mind how to scale up your approach is a good habit. I am still a newbie of Hadoop and NoSQL, but I would still like to share my approach with you. 
@@ -63,12 +63,12 @@ Output::
 
 Same as Question 1.
 
-3. Is there any frequent letters pattern occurs in the 1000 frequent words ?
-==============================================================
+3. Is there any frequent letters pattern occurs in the 1000 most frequent words ?
+=============================================================================
 
-Recently, I saw a TV show calls `Wheel bloopers`_ . This is a interesting word guessing puzzle, but I am not good at this game, so I was thinking about implementing a algorithm to solve this problem. After crunching the common words list, I think if I can list the most frequent letter patterns in the list, I believe I will have more hints to solve the word puzzle. 
+Recently, I saw a TV show call `Wheel bloopers`_ . This is an interesting word guessing puzzle, but I am not good at this game, so I was thinking about implementing an algorithm to solve this problem. After crunching the common word list, I think if I can list the most frequent letter patterns in the list, I believe I will have more hints to solve the word puzzle. 
 
-So the question becomes: how to find the frequent letter patterns ? Well, the answer become clear. The answer is “FP tree”. YA !!  The explanation of FP tree can be found `here`_ . 
+So the question becomes: how to find the frequent letter patterns ? Well, the answer becomes clear. The answer is “FP tree”. YA !!  The explanation of FP tree can be found `here`_ . 
 
 Usage::
 	
