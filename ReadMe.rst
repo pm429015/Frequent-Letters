@@ -32,7 +32,7 @@ Usage::
 
 Output::
 
-Letter Count
+
 -(‘E’, 730)
 -(’T’, 425) 
 -(‘R’, 399)
@@ -42,7 +42,7 @@ Letter Count
 -(‘I’, 364)
 -(’S’, 352)
 -(‘L’, 281)
--(‘D’, 238)]
+-(‘D’, 238)
 
 
 
@@ -63,7 +63,7 @@ Output::
 
 Same as Question 1.
 
-3. Is there any frequent letters pattern occurs in this words ?
+3. Is there any frequent letters pattern occurs in the 1000 frequent words ?
 ==============================================================
 
 Recently, I saw a TV show calls `Wheel bloopers`_ . This is a interesting word guessing puzzle, but I am not good at this game, so I was thinking about implementing a algorithm to solve this problem. After crunching the common words list, I think if I can list the most frequent letter patterns in the list, I believe I will have more hints to solve the word puzzle. 
