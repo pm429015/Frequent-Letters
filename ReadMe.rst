@@ -11,7 +11,7 @@ After reviewed the `1000 Most Common Words`_ list, there were three questions ca
 
 2. How to solve the first question if the list size is very hug, like 1TB ?
 
-3. Is there any frequent letters pattern occurs in this words? 
+3. Is there any frequent letters pattern occurs in these frequent words? 
 
 Please go through each section for detail.
 
@@ -24,7 +24,7 @@ Have Fun !!
 1. What is the 10 most frequent letters in this list ?
 ========================================================
 
-Actually, this is the question that post on the company website. Since there are only 24 letters in English, I believe the easiest and fastest way to solve this problem is hash (dict in python). Please let me know if you have any better idea. 
+Actually, this is a question that was posted on the company website. Since there are only 24 letters in English, I believe the easiest and fastest way to solve this problem is hash (dict in python). Please let me know if you have any better idea. 
 
 Usage::
 
@@ -32,6 +32,7 @@ Usage::
 
 Output::
 
+Letter Count
 -(‘E’, 730)
 -(’T’, 425) 
 -(‘R’, 399)
@@ -67,13 +68,14 @@ Same as Question 1.
 
 Recently, I saw a TV show calls `Wheel bloopers`_ . This is a interesting word guessing puzzle, but I am not good at this game, so I was thinking about implementing a algorithm to solve this problem. After crunching the common words list, I think if I can list the most frequent letter patterns in the list, I believe I will have more hints to solve the word puzzle. 
 
-So the question becomes: how to find the frequent letter patterns ? Well, the answer become clear. The answer is “FP tree” !! The explanation of FP tree can be found `here`_ . 
+So the question becomes: how to find the frequent letter patterns ? Well, the answer become clear. The answer is “FP tree”. YA !!  The explanation of FP tree can be found `here`_ . 
 
 Usage::
 	
 	python treeFP.py
 
 Output::
+
 In this example, if I take minimum support as 5%, I will get a lot of frequent patterns. 
 
 Let’s play a game:
@@ -89,6 +91,7 @@ Let’s play a game:
 .. _`Wheel bloopers`: http://www.youtube.com/results?search_query=Wheel%20bloopers
 
 .. _`here`: http://hareenlaks.blogspot.com/2011/06/fp-tree-example-how-to-identify.html
+
 
 Reference
 ============
