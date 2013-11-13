@@ -65,7 +65,7 @@ Same as Question 1.
 3. Is there any frequent letters pattern occurs in this words ?
 ==============================================================
 
-Recently, I saw a TV show calls “Wheel bloopers”. This is a interesting word guessing puzzle, but I am not good at this game, so I was thinking about implementing a algorithm to solve this problem. After crunching the common words list, I think if I can list the most frequent letter patterns in the list, I believe I will have more hints to solve the word puzzle. 
+Recently, I saw a TV show calls `Wheel bloopers`_ . This is a interesting word guessing puzzle, but I am not good at this game, so I was thinking about implementing a algorithm to solve this problem. After crunching the common words list, I think if I can list the most frequent letter patterns in the list, I believe I will have more hints to solve the word puzzle. 
 
 So the question becomes: how to find the frequent letter patterns ? Well, the answer become clear. The answer is “FP tree” !! The explanation of FP tree can be found `here`_ . 
 
